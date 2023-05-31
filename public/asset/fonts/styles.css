@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'i-hobbor';
+    url('i-hobbor.ttf?sfa1bu') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="i-"], [class*=" i-"], .rating-area label {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'i-hobbor' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.i-calendar-nav:before {
+    content: "\e91d";
+}
+.i-calendar-nav:hover:before,
+.i-calendar-nav-active:before {
+    content: "\e91e";
+}
+.i-mail-nav:before {
+    content: "\e91f";
+}
+.i-mail-nav:hover:before,
+.i-mail-nav-active:before {
+    content: "\e920";
+}
+.i-settings-nav:before {
+    content: "\e921";
+}
+.i-settings-nav:hover:before,
+.i-settings-nav-active:before {
+    content: "\e922";
+}
+.i-bell-nav:before {
+    content: "\e923";
+}
+.i-bell-nav:hover:before,
+.i-bell-nav-active:before {
+    content: "\e924";
+}
+.i-user-nav:hover:before,
+.i-user-nav-active:before {
+    content: "\e925";
+}
+.i-user-nav:before {
+    content: "\e926";
+}
+.i-study:before {
+    content: "\e91c";
+}
+.i-arrow-back-outline:before {
+    content: "\e90e";
+}
+.i-link:before {
+    content: "\e91b";
+}
+.i-send:before {
+    content: "\e915";
+}
+.i-attach:before {
+    content: "\e916";
+}
+.i-share:before {
+    content: "\e90f";
+}
+.i-alert-triangle:before {
+    content: "\e910";
+}
+.i-plus-circle:before {
+    content: "\e913";
+}
+.i-alert-circle:before {
+    content: "\e901";
+}
+.i-help-circle:before {
+    content: "\e902";
+}
+.i-eye-off:before {
+    content: "\e903";
+}
+.i-eye:before {
+    content: "\e904";
+}
+.i-pin:before {
+    content: "\e905";
+}
+.i-calendar:before {
+    content: "\e906";
+}
+.i-user:before {
+    content: "\e907";
+}
+.i-mail:before {
+    content: "\e908";
+}
+.i-bell:before {
+    content: "\e909";
+}
+.i-settings:before {
+    content: "\e90a";
+}
+.i-arrow_drop_down:before {
+    content: "\e914";
+}
+.i-clear:before {
+    content: "\e911";
+}
+.i-check:before {
+    content: "\e912";
+}
+.i-check-circle-fill:before {
+    content: "\e900";
+}
+.i-check-circle:before {
+    content: "\e90c";
+}
+.i-chat:before {
+    content: "\e90b";
+}
+.i-close-circle:before {
+    content: "\e90d";
+}
+.i-pointer:before {
+    content: "\e917";
+}
+.i-star:before {
+    content: "\e918";
+}
+.i-star-active:before {
+    content: "\e919";
+}
+.i-coin-dollar:before {
+    content: "\e93b";
+}
+.i-clock:before {
+    content: "\e91a";
+}
