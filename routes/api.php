@@ -20,3 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::resource('pages',App\Http\Controllers\PageController::class)->only(['index','store','show','update','destroy']);
 Route::resource('ideas',App\Http\Controllers\IdeaController::class)->only(['index','store','show','update','destroy']);
+
+
